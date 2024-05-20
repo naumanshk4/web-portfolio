@@ -38,7 +38,7 @@ function Home() {
                 A passionate ReactJS Developer dedicated to building responsive and user-friendly web applications<span className="text-2xl blue-text">{"."}</span>
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
-                 <img className="max-w-4xl" src="/laptop.png"></img>
+                 <img className="max-w-4xl" src={process.env.PUBLIC_URL + "/laptop.png"}></img>
                 </div>
               </div>
             </div>
