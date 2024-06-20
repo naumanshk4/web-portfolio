@@ -1,11 +1,11 @@
 import Headers from "./header";
 import  Type  from "./typingStyle";
-import laptopImg from "../images/Laptop.png"
+import laptopImg from "../images/Laptop-crp.png"
 
 function Home() {
   return (
 
-    <section className="vh100 bg-dark relative pb-20 overflow-hidden">
+    <section className="bg-dark relative pb-20 overflow-hidden">
      <Headers/>
       <div className="container relative px-4 mx-auto">
         <div className="">
